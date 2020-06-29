@@ -14,7 +14,11 @@ It serializes a object(list, dict) before writing to file.
 <b>3 steps towards using Flask-</b><br/>
 <b>1. Loading saved model and Initializing Flask app</b><br/>
 Firstly, code of building a simple regression model and then saving the model by serializing it using pickle.<br/>
-<b>2. Redirecting API to home page(index.html)</b><br/>
+model.py- The Machine Learning model to predict employee salaries based on training data according to ‘hiring.csv’ file.<br/>
+<b>2. Redirecting API to home page</b><br/>
+app.py -  File with Flask APIs that receives employee details through GUI/API calls, computes the predicted value based on given model and returns it.<br/>
+templates - This folder contains the HTML template (index.html) i.e., home page before and after predict.<br/>
+index.html - The html file of home page which redirects.<br/>
 <b>Redirecting to home page</b><br/>
 ![Input on home page](inputs.JPG)
 <br/>
