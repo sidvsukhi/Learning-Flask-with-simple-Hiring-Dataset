@@ -17,6 +17,7 @@ Firstly, code of building a simple regression model and then saving the model by
 <b>model.py</b> - The Machine Learning model to predict employee salaries based on training data according to ‘hiring.csv’ file.
 <br/><br/>
 <b>2. Redirecting API to home page</b><br/>
+Open webpage "http://127.0.0.1:5000/" or "http://localhost:5000/"<br/>
 <b>app.py</b> -  File with Flask APIs that receives employee details through GUI/API calls, computes the predicted value based on given model and returns it.<br/>
 <b>templates</b> - This folder contains the HTML template (index.html) i.e., home page before and after predict.<br/>
 <b>index.html</b> - The html file of home page which redirects.<br/>
